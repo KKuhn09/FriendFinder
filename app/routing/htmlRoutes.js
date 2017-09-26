@@ -1,17 +1,15 @@
-var express = require("express");
+//Include path package to get the correct file path for our html
+var path = require("path");
 
-var app = express();
+module.exports = function(app){
 
-var PORT = process.env.PORT || 3006;
+	app.get("/survey", function(req, res){
+		res.sendFile(path.join(__dirname, "/../public/survey.html"));
+	});
 
-app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "app/public/index.html"));
-});
+	app.get("*", function(req, res) {
+	  res.sendFile(path.join(__dirname, "/../public/home.html"));
+	});
+	
+};
 
-app.get("/survey", function(req, res){
-	res.sendFile(path.join(__dirname, "app/public/survey.html"));
-});
-
-app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
-});
