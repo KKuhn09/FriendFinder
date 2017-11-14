@@ -9,6 +9,8 @@ Uses a constructed API to server as a back end for a "Friend Finder" application
 
 Highlights
 ----------
-* Uses Express.js to:
+* Utilizes Express.js to:
   - Make GET/POST requests to the server and APIs
-  - Parse JSON data
+  - Parse/read JSON data
+  - Start the server
+* Utilizes the Chosen jQuery plugin for select boxes
