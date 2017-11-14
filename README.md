@@ -10,5 +10,5 @@ Uses a constructed API to server as a back end for a "Friend Finder" application
 Highlights
 ----------
 * Uses Express.js to:
-** Make GET/POST requests to the server and APIs
-** Parse JSON data
+  - Make GET/POST requests to the server and APIs
+  - Parse JSON data
