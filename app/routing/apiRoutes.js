@@ -3,15 +3,15 @@ var friends = require("../data/friends.js");
 
 //routing
 module.exports = function(app){
-	//API GET requests
 
+	//API GET requests
 	app.get("/api/friends", function(req, res){
 		res.json(friends);
 	});
 
 	//API POST requests
 	app.post("/api/friends", function(req, res){
-
+		//Matching our user with a friend
 		var bestMatch = {
 			name: "",
 			photo: "",

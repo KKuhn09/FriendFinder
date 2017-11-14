@@ -1,3 +1,4 @@
+//Requiring express and body-parser
 var express = require("express");
 var bodyParser = require("body-parser");
 
@@ -20,8 +21,3 @@ require("./app/routing/htmlRoutes")(app);
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
-
-//Need to use htmlRoutes to get data
-//Need to use apiRoutes to get and post data
-//Need to handle user input to match user with a friend from the api
-

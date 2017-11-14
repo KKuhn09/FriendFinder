@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/KKuhn09/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mocha": "^3.5.3"
   }
 }
