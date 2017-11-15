@@ -2,7 +2,7 @@
 
 ## A Node and Express "Friend Finder" application
 
-https://pacific-tundra-35153.herokuapp.com/survey
+Deployed Application (Heroku): https://pacific-tundra-35153.herokuapp.com/survey
 
 Uses a constructed API as a back end for a "Friend Finder" application. The user fills out a form and based on their responses will be matched with a friend (based on that friends' answers to the survey). 
 
