@@ -2,6 +2,8 @@
 
 ## A Node and Express "Friend Finder" application
 
+https://pacific-tundra-35153.herokuapp.com/survey
+
 Uses a constructed API as a back end for a "Friend Finder" application. The user fills out a form and based on their responses will be matched with a friend (based on that friends' answers to the survey). 
 
 ### ![Screenshot 1](https://user-images.githubusercontent.com/29578027/32760681-9cbe4e48-c8ac-11e7-87ae-358a4160dfe9.PNG)
@@ -14,3 +16,4 @@ Highlights
   - Parse/read JSON data
   - Start the server
 * Utilizes the Chosen jQuery plugin for select boxes
+* Deployed to Heroku
